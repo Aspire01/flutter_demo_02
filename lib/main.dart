@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './SearchBarDemo.dart';
+import './expansion_tile.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
     return Container(
       child: MaterialApp(
         title:'Flutter bottomNavigationDemo',
-        theme: ThemeData.light(),
-        home: SearchBarDemo(),
+        theme: ThemeData.dark(),
+        home: ExpansionDemo(),
       ),
     );
   }
