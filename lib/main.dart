@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './SearchBarDemo.dart';
+import './tooltip.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title:'Flutter bottomNavigationDemo',
         theme: ThemeData.light(),
-        home: SearchBarDemo(),
+        home: ToolTipDemo(),
       ),
     );
   }
